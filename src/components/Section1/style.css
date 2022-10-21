@@ -1,0 +1,50 @@
+.section-1 {
+  width: 750px;
+  margin: 0 auto;
+}
+
+.heading-main {
+  padding-top: 64px;
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.text-description {
+  font-size: 18px;
+}
+.section-1 .box-text {
+  margin: auto;
+  padding: 25px;
+  border: 1px dashed #ddd;
+  border-left: 5px solid #c50633;
+  box-shadow: 1px 1px 3px #f1f1f1;
+  border-radius: 0px;
+  background-color: #f6f6f6;
+  text-align: justify;
+  margin-bottom: 30px;
+  color: #000;
+  line-height: 150%;
+  font-size: 110%;
+}
+
+.overlay-picture {
+  position: relative;
+}
+
+.overlay-picture::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .45);
+}
+
+.text-in-picture {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  padding: 0 10px 5px;
+}
