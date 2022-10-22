@@ -26,7 +26,7 @@ const Hero = () => {
               thủy điện tăng cường điều tiết xã lũ trước khi bão số 5 vào đất
               liền khiến nhiều nơi ngập lụt. Theo nhiều người dân, trận lũ lịch
               sử lần này tại cố đô Huế chỉ xếp sau trận "đại hồng thủy" năm
-              1999, tất cả các tuyến đường trung tâm TP. Huế biến thành sông
+              1999, tất cả các tuyến đường trung tâm TP. Huế biến thành sông.
             </ScrollAnimation>
           </p>
         </div>

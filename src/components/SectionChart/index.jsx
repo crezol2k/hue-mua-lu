@@ -44,14 +44,15 @@ const SectionChart = () => {
       duration: 2,
     },
     title: {
-      text: 'Sông Hương: ngày 15/10/2022',
-      align: 'center',
+      text: "Sông Hương: ngày 15/10/2022",
+      align: "center",
       style: {
-        fontSize: '14px'
-      }
+        fontSize: "14px",
+      },
     },
     labels: labels,
     chart: {
+      fontFamily: "Lora",
       toolbar: {
         show: false,
       },
@@ -122,21 +123,15 @@ const SectionChart = () => {
             className="pt-5 pb-3 position-relative"
             style={{ width: "800px", margin: "0 auto" }}
           >
-            <Chart
-              options={options}
-              type="area"
-              series={series}
-              // width={800}
-              // height={400}
-            />
+            <Chart options={options} type="area" series={series} />
             <div className="line-warning1"></div>
             <div className="line-warning2"></div>
             <div className="line-warning3"></div>
-            <p className="mt-2" style={{ fontWeight: "bold" }}>
-              Đô thị kiểu mẫu cũng ngập.
-            </p>
           </div>
         </ScrollAnimation>
+        <div className="heading-main-2 py-5">
+          <h3 className="">Đô thị kiểu mẫu cũng ngập</h3>
+        </div>
       </div>
     </div>
   );

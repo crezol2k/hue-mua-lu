@@ -3,9 +3,14 @@
   margin: 0 auto;
 }
 
+.heading-main-2 {
+  width: 750px;
+  margin: 0 auto;
+}
+
 .line-warning1 {
   position: absolute;
-  bottom: 199px;
+  bottom: 153px;
   width: 710px;
   left: 65px;
   content: "";
@@ -23,7 +28,7 @@
 
 .line-warning2 {
   position: absolute;
-  bottom: 280px;
+  bottom: 233px;
   width: 710px;
   left: 65px;
   content: "";
@@ -41,7 +46,7 @@
 
 .line-warning3 {
   position: absolute;
-  bottom: 402px;
+  bottom: 353px;
   width: 710px;
   left: 65px;
   content: "";
