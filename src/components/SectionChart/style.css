@@ -2,3 +2,57 @@
   width: 750px;
   margin: 0 auto;
 }
+
+.line-warning1 {
+  position: absolute;
+  bottom: 199px;
+  width: 710px;
+  left: 65px;
+  content: "";
+  height: 1px;
+  border-bottom: 1px dashed #2a9d8f;
+}
+.line-warning1::after {
+  position: absolute;
+  content: "Báo động 1";
+  right: 0;
+  top: 0;
+  font-size: 12px;
+  color: #2a9d8f;
+}
+
+.line-warning2 {
+  position: absolute;
+  bottom: 280px;
+  width: 710px;
+  left: 65px;
+  content: "";
+  height: 1px;
+  border-bottom: 1px dashed #0096c7;
+}
+.line-warning2::after {
+  position: absolute;
+  content: "Báo động 2";
+  right: 0;
+  top: 0;
+  font-size: 12px;
+  color: #0096c7;
+}
+
+.line-warning3 {
+  position: absolute;
+  bottom: 402px;
+  width: 710px;
+  left: 65px;
+  content: "";
+  height: 1px;
+  border-bottom: 1px dashed #d62828;
+}
+.line-warning3::after {
+  position: absolute;
+  content: "Báo động 3";
+  right: 0;
+  top: 0;
+  font-size: 12px;
+  color: #d62828;
+}
